@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Aceitiko</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+
+<body>
+    <header>
+    <h1>Trabaja con nosotros</h1>
+    <nav> 
+        <ul>
+           <li class="paginainicio"><a href= "paginainicio.html">Inicio</a></li>
+           <li class="productosyservicios"><a href= "productosyservicios.html">Productos y Servicios</a></li>
+           <li class="contacto"><a href= "contacto.html">Contacto</a></li>
+           <li class="quienessomos"><a href= "quienessomos.html">¿Quiénes somos?</a></li>
+           <li class="trabajaconnosotros"><a href= "trabajaconnosotros.html">Trabaja con nosotros</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit: <br> Nam ultrices finibus tortor non fermentum. 
+            <br>Nulla nec ipsum risus. Sed velit nisi, fringilla ac ornare at, tincidunt sed est. </p>
+            <fieldset>
+                <h2>Datos personales</h2>
+                <p> Nombre: <input type="text" required></p>
+                <p> Apellidos: <input type="text" required></p>
+                <p> DNI: <input type="text" required></p>
+                <p> Sexo: 
+                    <select name="Sexo" size="1" required> <!--En W3C me pedia que pusiera atributo size, cuyo valor debia ser el nºde opciones que hay. Pero entonces no se comportaba como un desplegable. Si le daba valor 1, entonces sí se comportaba como desplegable. Pero W3C daba error igualmente.-->
+                        <option value="" disabled selected></option> <!--Esta es la directriz que me dio W3C, aunque me seguia dando error xq me obligaba  amete run texto en este option, lo cual no necesito. Ya no se q hacer. Además, al no meter texto ne este option, el usuario no ve la 1ª opcion del tirón, sino solo cuando pulsa el desplegable, lo cual creo q es lo comun en las webs-->
+                        <option value="Hombre"> Hombre</option>
+                        <option value="Mujer"> Mujer</option>
+                    </select>
+                </p>
+                <p>Fecha de nacimiento: <input type="date" required></p>
+                <p>Nacionalidad: <input type="text" required></p>
+                <p>Ciudad: <input type="text" required></p>
+                <p>Código Postal: <input type="text" required></p>
+                <p> Teléfono:<input type="tel" required></p>
+                <P>Email: <input type="email" required></P>
+            </fieldset>
+            <br>
+            <fieldset>
+               <h2>Formación</h2>
+                <p> Título: <input type="text" required></p>
+                <p>Año de inicio: <input type="number" min="1920" max="2100" required></p>
+                <p>Año de finalización: <input type="number" min="1920" max="2100" required></p>
+                <br>
+                <p> Título: <input type="text" required></p>
+                <p>Año de inicio: <input type="number" min="1920" max="2100" required></p>
+                <p>Año de finalización: <input type="number" min="1920" max="2100" required></p>
+                <br>
+                <p> Título: <input type="text" required></p>
+                <p>Año de inicio: <input type="number" min="1920" max="2100" required></p>
+                <p>Año de finalización: <input type="number" min="1920" max="2100" required></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <h2>Idiomas</h2>
+                 <p> Idioma: <input type="text" required></p>
+                 <p>Hablado: 
+                    <select name="Hablado" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Leido: 
+                    <select name="Leido" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Escrito: 
+                    <select name="Escrito" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                <br>
+                <p> Idioma: <input type="text" required></p>
+                 <p>Hablado: 
+                    <select name="Hablado" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Leido: 
+                    <select name="Leido" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Escrito: 
+                    <select name="Escrito" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                <br>
+                <p> Idioma: <input type="text" required></p>
+                 <p>Hablado: 
+                    <select name="Hablado" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Leido: 
+                    <select name="Leido" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+                
+                <p>Escrito: 
+                    <select name="Escrito" size="1" required>
+                        <option value="" disabled selected></option>
+                        <option value="Excelente">Excelente</option>
+                        <option value="Bien"> Bien</option>
+                        <option value="Regular"> Regular</option> 
+                        <option value="Nada"> Nada</option> 
+                    </select>
+                </p>
+             </fieldset>
+             <p><button type="submit">Enviar</button></p>
+            
+    </main>
+
+    <footer>
+        <div class="RRSS">
+        También puede visitarnos en: <a href="https://es.linkedin.com/" title="Linkedin" >
+                                        <img class="linkedin" src="Imagenes/linkedin.png" alt="linkedin de la empresa"></a>
+                                    <a href="https://www.instagram.com/" title="Instagram">
+                                        <img class="instagram" src="Imagenes/instagram.png" alt="instagram de la empresa"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
